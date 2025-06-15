@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Cosmic Quest - AI-powered astronomy education platform with progressive learning tracks and community features">
+    <title>Cosmic Quest - AI-Powered Astronomy Education Platform</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#0B1426">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="assets/icons/icon-192x192.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; 
+                 img-src 'self' data: https://apod.nasa.gov https://*.nasa.gov; 
+                 script-src 'self'; 
+                 style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; 
+                 font-src 'self' https://fonts.gstatic.com;
+                 connect-src 'self' https://api.nasa.gov https://api.openweathermap.org;">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="cosmic-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>Cosmic Quest</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#tonights-sky">Tonight's Sky</a>
+                <a href="#events">Events</a>
+                <a href="#learn">Learn</a>
+                <a href="#community">Community</a>
+            </div>
+            <button class="cta-button primary">Join Quest</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-video-bg">
+            <video autoplay muted loop playsinline>
+                <source src="assets/videos/space-bg.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="hero-video-overlay"></div>
+        <div class="hero-content">
+            <h1>Discover the Universe Together</h1>
+            <p>Connect with local stargazers, learn astronomy, and explore the cosmos with your community.</p>
+            <div class="hero-cta">
+                <a href="#learn" class="cta-button primary">Get Started</a>
+                <button class="cta-button secondary">Learn More</button>
+            </div>
+        </div>
+        <div class="starfield-animation" id="starfield"></div>
+    </section>
+
+    <!-- Tonight's Sky Section -->
+    <section id="tonights-sky" class="section">
+        <div class="section-header">
+            <h2>Tonight's Sky</h2>
+            <p>Personalized recommendations based on your location</p>
+        </div>
+        <div class="sky-cards">
+            <div class="cosmic-card weather-card">
+                <h3>Weather Conditions</h3>
+                <div id="weather-info">Loading...</div>
+            </div>
+            <div class="cosmic-card objects-card">
+                <h3>Visible Objects</h3>
+                <div id="objects-list">Loading...</div>
+            </div>
+            <div class="cosmic-card iss-card">
+                <h3>ISS Pass Times</h3>
+                <div id="iss-info">Loading...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="section">
+        <div class="section-header">
+            <h2>Local Events</h2>
+            <p>Join stargazing events in your area</p>
+        </div>
+        <div class="events-grid" id="events-container">
+            <!-- Events will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <!-- Learning Section -->
+    <section id="learn" class="section">
+        <div class="section-header">
+            <h2>Learn Astronomy</h2>
+            <p>Start your journey to the stars</p>
+        </div>
+
+        <!-- AI Tutor Interface -->
+        <div class="ai-tutor-container">
+            <h3>Your AI Astronomy Tutor</h3>
+            <div class="chat-interface" id="ai-chat">
+                <div class="chat-messages" id="chat-messages">
+                    <!-- Messages will be added here dynamically -->
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="user-question" placeholder="Ask anything about astronomy...">
+                    <button class="cta-button primary" id="ask-button">Ask</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="learning-path" id="learning-path">
+            <!-- Learning levels will be dynamically loaded here -->
+        </div>
+
+        <div class="achievements-section">
+            <h3>Your Achievements</h3>
+            <div class="achievements-container">
+                <!-- Achievements will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="section">
+        <div class="section-header">
+            <h2>Join the Quest</h2>
+            <p>Connect with fellow stargazers</p>
+        </div>
+        <div class="community-features">
+            <div class="cosmic-card">
+                <h3>Local Groups</h3>
+                <p>Find astronomy clubs near you</p>
+            </div>
+            <div class="cosmic-card">
+                <h3>Mentors</h3>
+                <p>Connect with experienced astronomers</p>
+            </div>
+            <div class="cosmic-card">
+                <h3>Share Events</h3>
+                <p>Host your own stargazing events</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="cosmic-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Cosmic Quest</h3>
+                <p>Making astronomy accessible to everyone</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="#tonights-sky">Tonight's Sky</a>
+                <a href="#events">Events</a>
+                <a href="#learn">Learn</a>
+                <a href="#community">Community</a>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter">Twitter</a>
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="Discord">Discord</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Cosmic Quest. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="app.js"></script>
+    <script type="module" src="community.js"></script>
+    <script type="module" src="learning.js"></script>
+    <script type="module" src="astronomy.js"></script>
+    <script type="module" src="ai-tutor.js"></script>
+</body>
+
+</html>

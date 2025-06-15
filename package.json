@@ -1,0 +1,19 @@
+{
+    "name": "cosmic-quest",
+    "version": "1.0.0",
+    "description": "AI-powered astronomy education platform for Stellar Gateway Quest hackathon",
+    "main": "index.html",
+    "scripts": {
+        "generate-icons": "node generate-icons.js",
+        "generate-screenshots": "node generate-screenshots.js",
+        "generate-assets": "npm run generate-icons && npm run generate-screenshots",
+        "start": "serve ."
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "node-fetch": "^3.3.2",
+        "serve": "^14.2.1",
+        "sharp": "^0.32.1"
+    }
+}
