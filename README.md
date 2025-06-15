@@ -1,23 +1,23 @@
-# 🌌 Cosmic Quest
+# Cosmic Quest
 
 *Empowering Communities Through Stellar Education - Stellar Gateway Quest Hackathon Submission*
 
-## 🌟 Project Overview
+## Project Overview
 
 Cosmic Quest is a revolutionary AI-powered astronomy education platform that empowers global communities through stellar solutions. Built for the **Stellar Gateway Quest** hackathon (June 7-21, 2025), our platform transforms how space enthusiasts connect, learn, and explore the cosmos together.
 
 **Mission**: To democratize astronomy education and foster thriving space communities worldwide through innovative technology and inclusive learning experiences.
 
-## 🚀 Empowering Communities Through Space
+## Empowering Communities Through Space
 
-### 🌍 Global Community Connection
+### Global Community Connection
 - **Local Astronomy Groups**: Discover and join nearby stargazing communities
 - **Mentor Networks**: Connect beginners with experienced astronomers worldwide  
 - **Event Discovery**: Find local star parties, workshops, and astronomy meetups
 - **Knowledge Sharing**: Community-driven discussions and collaborative observations
 - **Cultural Exchange**: Learn about astronomy through diverse global perspectives
 
-### 📚 Progressive Learning Ecosystem
+### Progressive Learning Ecosystem
 **Stargazer Track** (Beginner)
 - Constellation identification and mythology
 - Basic astronomy concepts and terminology
@@ -36,14 +36,14 @@ Cosmic Quest is a revolutionary AI-powered astronomy education platform that emp
 - Current space missions and discoveries
 - Career pathways in astronomy and space sciences
 
-### 🤖 AI-Powered Personal Tutor
+### AI-Powered Personal Tutor
 - **Intelligent Guidance**: Perplexity Sonar Pro API delivers personalized, context-aware astronomy education
 - **Adaptive Learning**: Curriculum adjusts to individual pace and interests
 - **Real-Time Support**: Instant answers to complex astronomy questions
 - **Progress Insights**: Smart tracking and personalized learning recommendations
 - **Multilingual Support**: Breaking language barriers in space education
 
-## 🎨 Enhanced User Experience
+## Enhanced User Experience
 
 ### Cosmic Visual Identity
 Our platform features a stunning **cosmic purple theme** that creates an immersive space experience:
@@ -59,7 +59,7 @@ Our platform features a stunning **cosmic purple theme** that creates an immersi
 - **Push Notifications**: Alerts for astronomical events and learning milestones
 - **Cross-Platform**: Optimized for desktop, tablet, and mobile devices
 
-## 🌟 Real-Time Stellar Data Integration
+## Real-Time Stellar Data Integration
 
 ### Live Sky Information
 - **Tonight's Sky**: Personalized viewing recommendations based on location
@@ -74,7 +74,7 @@ Our platform features a stunning **cosmic purple theme** that creates an immersi
 - **Mars Weather**: Current conditions on the Red Planet
 - **Exoplanet Database**: Explore thousands of confirmed planets beyond our solar system
 
-## 🏆 Achievement & Recognition System
+## Achievement & Recognition System
 
 ### Community-Driven Achievements
 - **Learning Badges**: Recognition for completing educational milestones
@@ -83,7 +83,7 @@ Our platform features a stunning **cosmic purple theme** that creates an immersi
 - **Challenge Completions**: Interactive quizzes and hands-on astronomy projects
 - **Mentor Recognition**: Special badges for community members who guide others
 
-## 🛠️ Technical Excellence
+## Technical Excellence
 
 ### Modern Web Architecture
 ```
@@ -106,7 +106,7 @@ Performance: Optimized loading, PWA capabilities
 - **Input Sanitization**: Safe user content handling
 - **Privacy-First Approach**: Minimal data collection, transparent policies
 
-## 🎯 Stellar Gateway Quest Alignment
+## Stellar Gateway Quest Alignment
 
 ### Empowering Communities
 - **Accessibility**: Making advanced astronomy education available to all skill levels and backgrounds
@@ -120,7 +120,7 @@ Performance: Optimized loading, PWA capabilities
 - **Community Platform**: Tools for group formation and event coordination
 - **Career Pathways**: Guidance for pursuing astronomy and space science careers
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### Local Development
 ```bash
@@ -153,7 +153,7 @@ vercel --prod
 # Automatic deployment on push to main branch
 ```
 
-## 📊 Community Impact Metrics
+## Community Impact Metrics
 
 ### Platform Engagement
 - **50+ Interactive Lessons** across three progressive learning tracks
@@ -168,7 +168,7 @@ vercel --prod
 - **Community Engagement**: Active participation in local astronomy groups and events
 - **Career Preparation**: Pathways to astronomy education and space science careers
 
-## 🌟 Future Vision
+## Future Vision
 
 ### Upcoming Features
 - **Augmented Reality**: AR constellation overlays and planet identification
@@ -183,7 +183,7 @@ vercel --prod
 - **Citizen Science**: Integration with real astronomical research projects
 - **Educational Partnerships**: Collaboration with schools, museums, and planetariums
 
-## 🤝 Contributing & Community
+## Contributing & Community
 
 ### Join Our Mission
 - **GitHub Repository**: Contribute code, documentation, and educational content
@@ -195,7 +195,7 @@ vercel --prod
 ### Community Guidelines
 We're committed to creating an inclusive, supportive environment where all space enthusiasts can learn and thrive together.
 
-## 📄 License & Acknowledgments
+## License & Acknowledgments
 
 **License**: MIT License - See [LICENSE](LICENSE) for details
 
