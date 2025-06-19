@@ -197,8 +197,6 @@ We're committed to creating an inclusive, supportive environment where all space
 
 ## License & Acknowledgments
 
-**License**: MIT License - See [LICENSE](LICENSE) for details
-
 **Special Thanks**:
 - **Stellar Gateway Quest**: For inspiring innovation in space technology and community empowerment
 - **NASA**: Providing comprehensive astronomical data and imagery
